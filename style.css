@@ -1,0 +1,20 @@
+body { margin: 0px auto; background-color: #181823; font-family: "Courier"; font-weight: bold; }
+
+.hangman { width: 348px; height: 400px; margin-top: 50px; }
+
+#gameover { display: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: rgba(0,0,0,0.9); }
+#gameover .middle { width: 100%; height: 230px; text-align: center; color: #fff; position: absolute; top: 0; bottom: 0; margin: auto; font-size: 40px; }
+#gameover .text { font-size: 100px; }
+#gameover span { display: block; margin-bottom: 20px; }
+#gameover span.on:hover { cursor: pointer; color: #15b269; }
+
+#guess { width: 100%; text-align: center; height: 50px; margin-top: 70px; }
+#guess div { color: #fff; vertical-align: top; width: 50px; height: 50px; font-size: 30px; line-height: 50px; border-bottom: 5px solid rgba(0,0,0,0.5); display: inline-block; margin: 0px 5px; background-color: rgba(0,0,0,0.2); }
+#guess div.mr { margin-right: 40px; }
+
+#slova { margin-top: 70px; width: 800px; }
+#slova .button { width: 50px; height: 50px; background-color: #15b269; border-radius: 4px; cursor: pointer; color: #fff; font-size: 25px; border: none; box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4); margin: 5px; }
+#slova .button:hover { background-color: #35d78c; }
+#slova .button:disabled { background-color: #c9c9c9; color: #7f7f7f; }
+
+.restart { margin-top: 70px; height: 50px; padding: 0px 30px; background-color: #15b269; border-radius: 4px; cursor: pointer; color: #fff; font-size: 15px; border: none; box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.4); }
